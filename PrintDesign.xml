@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrintDesign>
+	<Header>
+		<ColumnName Type="Label" Title="" Value="Fusil Solutions Pvt Ltd" Line="1" Place="1" Top="20" Left="150"  Height="30" Width="380" FontSize="20" FontType="arial" FontStyle="Bold" Alignment="Center" />
+		<ColumnName Type="Field" Title="Branch" Value="" Line="2" Place="2" Left="0" Top="5" Height="30" Width="150" FontSize="15" FontType="arial" FontStyle="Regular" Alignment="Center" />
+		<ColumnName Type="Label" Title="" Value="Branch:" Line="2" Place="1" Left="50" Top="5" Height="30" Width="120" FontSize="15" FontType="arial" FontStyle="Bold" Alignment="Center" />
+
+		<ColumnName Type="Field" Title="AccountId" Value="" Line="2" Place="4" Left="0" Top="5" Height="30" Width="250" FontSize="15" FontType="arial" FontStyle="Regular" Alignment="Center" />
+		<ColumnName Type="Label" Title="" Value="Account:" Line="2" Place="3" Left="0" Top="5" Height="30" Width="120" FontSize="15" FontType="arial" FontStyle="Bold" Alignment="Center" />
+
+
+		<ColumnName Type="Field" Title="TaxClassId" Value="" Line="3" Place="2" Left="0" Top="5" Height="30" Width="150" FontSize="15" FontType="arial" FontStyle="Regular" Alignment="Center" />
+		<ColumnName Type="Label" Title="" Value="TaxClass:" Line="3" Place="1" Left="50" Top="5" Height="30" Width="120" FontSize="15" FontType="arial" FontStyle="Bold" Alignment="Center" />
+
+		<ColumnName Type="Field" Title="PriceListId" Value="" Line="3" Place="4" Left="0" Top="5" Height="30" Width="250" FontSize="15" FontType="arial" FontStyle="Regular" Alignment="Center" />
+		<ColumnName Type="Label" Title="" Value="Price List:" Line="3" Place="3" Left="0" Top="5" Height="30" Width="120" FontSize="15" FontType="arial" FontStyle="Bold" Alignment="Center" />
+
+		<ColumnName Type="Field" Title="Date" Value="" Line="4" Place="2" Left="0" Height="30" Top="5" Width="120" FontSize="15" FontType="arial" FontStyle="Regular" Alignment="Center" />
+		<ColumnName Type="Label" Title="" Value="Date:" Line="4" Place="1" Left="50" Height="30" Top="5" Width="120" FontSize="15" FontType="arial" FontStyle="Bold" Alignment="Center" />
+
+		<ColumnName Type="Field" Title="Remarks" Value="" Line="4" Place="4" Left="0" Height="30" Top="5" Width="120" FontSize="15" FontType="arial" FontStyle="Regular" Alignment="Center" />
+		<ColumnName Type="Label" Title="" Value="Remarks:" Line="4" Place="3" Left="50" Height="30" Top="5" Width="120" FontSize="15" FontType="arial" FontStyle="Bold" Alignment="Center" />
+
+		<!--<ColumnName Type="Field" Title="BankName" Value="" Line="4" Place="4" Left="4" Height="30" Top="10" Width="120" FontSize="14" FontType="Times New Roman" FontStyle="Regular" Alignment="Center" />
+		<ColumnName Type="Label" Title="" Value="BankName:" Line="4" Place="3" Left="3" Height="30" Top="10" Width="120" FontSize="14" FontType="Times New Roman" FontStyle="Bold" Alignment="Center" />-->
+
+	</Header>
+	<Body>
+		<Columns>
+			<ColumnName Title="RNo" Name="RNo" Caption="" ColumnHeaderAlignment="Left" Alignment="Center" ColumnType="NonNumericColumn" DecimalPlaces="0" ColumnFormat="" Width="50" FontSize="12" FontType="Tahoma" FontStyle="Regular"  />
+			<ColumnName Title="ProductName" Name="ProductName" Caption="Product" ColumnHeaderAlignment="Left" Alignment="Left" ColumnType="NonNumericColumn" DecimalPlaces="0" ColumnFormat="" Width="180" FontSize="12" FontType="Tahoma" FontStyle="Regular"  />
+			<ColumnName Title="Qty" Name="Qty" Caption="Qty" ColumnHeaderAlignment="Left" Alignment="center" ColumnType="NonNumericColumn" DecimalPlaces="0" ColumnFormat="" Width="100" FontSize="10" FontType="Tahoma" FontStyle="Bold" />
+			<ColumnName Title="Rate" Name="Rate" Caption="Rate" ColumnHeaderAlignment="Left" Alignment="Right" ColumnType="NumericColumn" DecimalPlaces="2" ColumnFormat="" Width="120" FontSize="10" FontType="Tahoma" FontStyle="Bold"  />
+			<ColumnName Title="Gross" Name="Gross" Caption="Gross" ColumnHeaderAlignment="Left" Alignment="Right" ColumnType="NumericColumn" DecimalPlaces="2" ColumnFormat="" Width="120" FontSize="10" FontType="Tahoma" FontStyle="Bold"  />
+			<ColumnName Title="Net" Name="Net" Caption="Net" ColumnHeaderAlignment="Left" Alignment="Right" ColumnType="NumericColumn" DecimalPlaces="2" ColumnFormat="" Width="130" FontSize="10" FontType="Tahoma" FontStyle="Bold"  />
+		</Columns>
+	</Body>
+	<Footer>
+		<ColumnName Type="Field" Title="Gross" Value="" Place="2" Line="1" Left="0" Top="0" Height="25" Width="40"  FontSize="12" FontType="Tahoma" FontStyle="Regular" Alignment="right" DecimalPlaces="2" />
+		<ColumnName Type="Label" Title="" Value="Total Gross:" Place="1" Line="1" Left="500" Top="0" Height="25" Width="90"  FontSize="12" FontType="Tahoma" FontStyle="Bold" Alignment="left" DecimalPlaces="0" />
+		<ColumnName Type="Field" Title="Disc" Value="" Place="4" Line="2" Left="0" Top="0" Height="25" Width="40"  FontSize="12" FontType="Times New Roman" FontStyle="Regular" Alignment="right" DecimalPlaces="2" />
+		<ColumnName Type="Label" Title="" Value="Total Disc:" Place="3" Line="2" Left="500" Top="0" Height="25" Width="90"  FontSize="12" FontType="Times New Roman" FontStyle="Bold" Alignment="left" DecimalPlaces="0" />
+		<ColumnName Type="Field" Title="cgst" Value="" Place="2" Line="3" Left="0" Top="0" Height="25" Width="40"  FontSize="12" FontType="Tahoma" FontStyle="Regular" Alignment="right" DecimalPlaces="2" />
+		<ColumnName Type="Label" Title="" Value="Total CGST:" Place="1" Line="3" Left="500" Top="0" Height="25" Width="90"  FontSize="12" FontType="Tahoma" FontStyle="Bold" Alignment="left" DecimalPlaces="0" />
+		<ColumnName Type="Field" Title="sgst" Value="" Place="4" Line="4" Left="0" Top="0" Height="25" Width="40"  FontSize="12" FontType="Times New Roman" FontStyle="Regular" Alignment="right" DecimalPlaces="2" />
+		<ColumnName Type="Label" Title="" Value="Total SGST:" Place="3" Line="4" Left="500" Top="0" Height="25" Width="90"  FontSize="12" FontType="Times New Roman" FontStyle="Bold" Alignment="left" DecimalPlaces="0" />
+		<ColumnName Type="Field" Title="net" Value="" Place="4" Line="5" Left="0" Top="0" Height="25" Width="40"  FontSize="12" FontType="Times New Roman" FontStyle="Bold" Alignment="right" DecimalPlaces="2" />
+		<ColumnName Type="Label" Title="" Value="Total(Rs):" Place="3" Line="5" Left="500" Top="0" Height="25" Width="90"  FontSize="12" FontType="Times New Roman" FontStyle="Bold" Alignment="left" DecimalPlaces="0" />
+
+
+		<ColumnName Type="Label" Title="" Value="THANK YOU VISIT AGAIN...." Place="1" Line="6" Left="150" Top="50" Height="25" Width="400"  FontSize="16" FontType="Times New Roman" FontStyle="Bold" Alignment="Left" DecimalPlaces="0" />
+		<ColumnName Type="Label" Title="" Value="Authorised Signatory" Place="1" Line="7" Left="400" Top="30" Height="25" Width="750"  FontSize="14" FontType="Times New Roman" FontStyle="Bold" Alignment="Left" DecimalPlaces="0" />
+	</Footer>
+</PrintDesign>
